@@ -9245,7 +9245,7 @@
 			(uuid "c3d61647-b1f0-428e-9449-1ab985494be0")
 		)
 		(instances
-			(project ""
+			(project "teensy_brain2"
 				(path "/4ff79e07-6c8d-4a5a-80b5-018f86956321/c66dfbc8-3343-452a-acf3-dc3cf10df98d"
 					(reference "#FLG08")
 					(unit 1)

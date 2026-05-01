@@ -4294,21 +4294,6 @@
 		)
 		(uuid 2c75bb37-2b34-488c-af8f-b1e26c43d5fb)
 	)
-	(polyline
-		(pts
-			(xy 426.72 76.2) (xy 429.26 77.47) (xy 429.26 74.93) (xy 426.72 76.2)
-		)
-		(stroke
-			(width 0.0254)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type color)
-			(color 0 0 0 1)
-		)
-		(uuid 3634f730-9644-4ace-843e-2c0197c8b144)
-	)
 	(rectangle
 		(start 212.09 116.84)
 		(end 254 151.13)
@@ -4418,28 +4403,6 @@
 		)
 		(uuid "1ea2fe1a-1b25-4e7c-ab67-2e570ec76f23")
 	)
-	(text "D"
-		(exclude_from_sim no)
-		(at 428.454 54.949 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "275f8d68-0cbe-4e63-b560-45865186dcb0")
-	)
-	(text "E"
-		(exclude_from_sim no)
-		(at 428.518 8.382 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "32a51423-d02d-4eb7-87cd-79e9e0f65e72")
-	)
 	(text "LOAD CELLS"
 		(exclude_from_sim no)
 		(at 259.08 125.73 0)
@@ -4483,17 +4446,6 @@
 			(justify left bottom)
 		)
 		(uuid "9349aa23-20e9-4321-a601-67e56d56d816")
-	)
-	(text "C"
-		(exclude_from_sim no)
-		(at 428.454 101.515 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a69b3454-2d78-42f5-ab33-f2857cb5232f")
 	)
 	(text "BATTERY INPUT"
 		(exclude_from_sim no)
@@ -5412,17 +5364,6 @@
 		)
 		(uuid "4dc40dff-29de-4c78-9716-ffa659539536")
 	)
-	(polyline
-		(pts
-			(xy 426.72 76.2) (xy 431.8 76.2)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(uuid "4f0e07ce-9516-4516-8964-29fb361ec2cd")
-	)
 	(wire
 		(pts
 			(xy 137.16 111.76) (xy 143.51 111.76)
@@ -6193,17 +6134,6 @@
 		)
 		(uuid "b18b3944-89c7-4f28-8602-d3227f48c55a")
 	)
-	(polyline
-		(pts
-			(xy 426.72 122.767) (xy 431.8 122.767)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(uuid "b1dbda9a-8d67-439c-bb2f-d3ecb7d7492f")
-	)
 	(wire
 		(pts
 			(xy 215.9 142.24) (xy 234.95 142.24)
@@ -6293,17 +6223,6 @@
 			(type default)
 		)
 		(uuid "c16af3a0-6b77-42e3-9bbe-cec6e3e24409")
-	)
-	(polyline
-		(pts
-			(xy 426.72 29.633) (xy 431.8 29.633)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(uuid "c1f36d1d-9c78-4bb5-860b-c168c71eb818")
 	)
 	(wire
 		(pts
@@ -6494,17 +6413,6 @@
 			(type default)
 		)
 		(uuid "dc005936-d09b-412b-ab3c-eed87b6c0714")
-	)
-	(polyline
-		(pts
-			(xy 426.72 -16.933) (xy 431.8 -16.933)
-		)
-		(stroke
-			(width 0.254)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(uuid "dc0ba7a7-f0ea-4fca-bc35-a33cb5e66f20")
 	)
 	(wire
 		(pts
@@ -20044,7 +19952,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LoadCell.kicad_sch"
+		(property "Sheetfile" "sheets/LoadCell.kicad_sch"
 			(at 264.16 135.89 0)
 			(effects
 				(font
