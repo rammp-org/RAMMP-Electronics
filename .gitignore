@@ -1,0 +1,21 @@
+# ---- KiCad user / local settings ----
+*.kicad_pro.user
+*.kicad_pro.lock
+
+# ---- Auto-save / temp files ----
+*-autosave.*
+*.tmp
+*.bak
+*.lck
+
+# ---- Backup files ----
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# ---- Cache / logs ----
+*.log
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
