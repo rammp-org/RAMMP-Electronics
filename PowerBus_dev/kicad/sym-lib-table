@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "powerbus")(type "KiCad")(uri "C:/Users/arian/Documents/RAMMP/repos/RAMMP-Electronics/PowerBus_dev/kicad/symbols/powerbus.kicad_sym")(options "")(descr ""))
+)
