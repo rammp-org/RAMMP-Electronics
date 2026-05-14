@@ -230,6 +230,14 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 123.19 100.33)
+		(uuid "79f55d5e-063f-4da4-93bf-b803941981bd")
+	)
+	(no_connect
+		(at 123.19 97.79)
+		(uuid "d08fde00-3d3c-4c8d-9458-ce4604ada68a")
+	)
 	(symbol
 		(lib_id "powerbus lib:XT60_YELLOW")
 		(at 128.27 97.79 0)
@@ -258,7 +266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XT60_YELLOW:AMASS_XT60PB-M"
+		(property "Footprint" "powerbus lib:AMASS_XT60PB-M"
 			(at 128.27 97.79 0)
 			(effects
 				(font
