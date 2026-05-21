@@ -1,12 +1,18 @@
 # ---- KiCad user / local settings ----
 *.kicad_pro.user
 *.kicad_pro.lock
+*.kicad_prl
 
 # ---- Auto-save / temp files ----
+_autosave-*
+#auto_saved_files#
 *-autosave.*
 *.tmp
 *.bak
 *.lck
+
+# ---- Backup folders ----
+*-backups/
 
 # ---- Backup files ----
 *.kicad_sch-bak
