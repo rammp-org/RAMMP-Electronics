@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "powerbus_24V")(type "KiCad")(uri "${KIPRJMOD}/powerbus_24V.kicad_sym")(options "")(descr ""))
+)
