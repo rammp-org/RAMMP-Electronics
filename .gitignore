@@ -1,29 +1,28 @@
-# ---- KiCad user / local settings ----
-*.kicad_pro.user
-*.kicad_pro.lock
-*.kicad_prl
-
-# ---- Auto-save / temp files ----
+# Autosave / backups
+*-backups/
 _autosave-*
 #auto_saved_files#
-*-autosave.*
-*.tmp
+*.kicad_pcb-bak
+*.kicad_sch-bak
 *.bak
 *.lck
+~*
 
-# ---- Backup folders ----
-*-backups/
+# Caches and generated files
+fp-info-cache
+*-cache.lib
+*-rescue.lib
+*.net
+*.xml
 
-# ---- Backup files ----
-*.kicad_sch-bak
-*.kicad_pcb-bak
+# Per-user UI/local state
+*.kicad_prl
 
-# ---- Cache / logs ----
-*.log
+# Editor / tooling
+.history/
 
-# ---- OS junk ----
-.DS_Store
-Thumbs.db
-desktop.ini
-
-.vscode/
+# Fabrication outputs (regenerate on demand)
+/production/
+/gerbers/
+*.gbr
+*.drl
