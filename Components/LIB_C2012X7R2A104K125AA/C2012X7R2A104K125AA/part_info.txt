@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=C2012X7R2A104K125AA
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=6.1
+Released=2023-03-07 09:28:14
+Downloaded=2026-08-04 20:39:02
+3D=Y

@@ -1,0 +1,18 @@
+.C2012X7R2A104K125AA :1 ;MULTILAYER CERAMIC CHIP CAPACITORS, 2012, Commercial grade, general (Up to 75V)
+CAPC2012X145N
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN C2012X7R2A104K125AA
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (C2012X7R2A104K125AA)
+~!Mouser Part Number (810-C2012X7R2A104K)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TDK/C2012X7R2A104K125AA?qs=NRhsANhppD9J0ZsT2%2Fo%2F7Q%3D%3D)
+~!Arrow Part Number (C2012X7R2A104K125AA)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/c2012x7r2a104k125aa/tdk?region=europe)
+~!Link Datasheet (https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf)
+~!Height (1.45mm)
+~!3D_Model (C2012X7R2A104K125AA)
+C2012X7R2A104K125AA
+1.1!U 2.1!U 
