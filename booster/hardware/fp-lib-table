@@ -1,4 +1,5 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "booster") (type "KiCad") (uri "${KIPRJMOD}/lib/booster.pretty") (options "") (descr ""))
+	(lib (name "booster") (type "KiCad") (uri "${KIPRJMOD}/lib/booster.pretty") (options "") (descr ""))
 )
