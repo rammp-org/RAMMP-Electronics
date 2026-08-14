@@ -2193,7 +2193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "booster:smd_cap_10uf_16V"
 			(at 176.53 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2353,7 +2353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "booster:smd_res_100k"
 			(at 158.496 95.504 90)
 			(hide yes)
 			(show_name no)
@@ -2435,7 +2435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "booster:CAPC2012X145N"
 			(at 143.51 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2515,7 +2515,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "booster:TPS61040DBVR"
 			(at 116.84 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2761,7 +2761,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "booster:MBR120VLSFT1G"
 			(at 134.62 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3135,7 +3135,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MLP2520S100MT0S1:INDC2520X100N"
+		(property "Footprint" "booster:INDC10uh"
 			(at 109.22 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3541,7 +3541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "booster:smd_res_100k"
 			(at 87.376 86.614 90)
 			(hide yes)
 			(show_name no)
@@ -3711,7 +3711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "booster:smd_res_876k_KOA"
 			(at 158.496 78.994 90)
 			(hide yes)
 			(show_name no)
@@ -3793,7 +3793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "booster:smd_cap_22uf_16V"
 			(at 73.66 86.36 0)
 			(hide yes)
 			(show_name no)
