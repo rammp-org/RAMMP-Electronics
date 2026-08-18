@@ -2915,7 +2915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:CAP_0.1uF_50V"
 			(at 52.07 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2938,6 +2938,17 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 52.07 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C127833"
 			(at 52.07 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2995,7 +3006,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:CAP_0.1uF_50V"
 			(at 52.07 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3018,6 +3029,17 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 52.07 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C127833"
 			(at 52.07 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3077,7 +3099,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:RES_510"
 			(at 65.024 139.446 90)
 			(hide yes)
 			(show_name no)
@@ -3100,6 +3122,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 66.04 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1881350"
 			(at 66.04 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -3157,7 +3190,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:RES_33k"
 			(at 120.904 44.704 90)
 			(hide yes)
 			(show_name no)
@@ -3180,6 +3213,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 120.65 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C728559"
 			(at 120.65 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -3550,7 +3594,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:CAP_0.1uF_50V"
 			(at 142.24 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3573,6 +3617,17 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 142.24 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C127833"
 			(at 142.24 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3664,6 +3719,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1346736"
+			(at 88.9 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "68f0115b-bc45-4b61-ab8a-79dd47270645")
 		)
@@ -3731,7 +3797,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:CAP_0.1uF_50V"
 			(at 115.57 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3754,6 +3820,17 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 115.57 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C127833"
 			(at 115.57 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3968,7 +4045,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:CAP_0.1uF_50V"
 			(at 142.24 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -3991,6 +4068,17 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 142.24 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C127833"
 			(at 142.24 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4126,7 +4214,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:CAP_0.1uF_50V"
 			(at 52.07 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -4149,6 +4237,17 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 52.07 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C127833"
 			(at 52.07 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -4208,7 +4307,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:RES_12k"
 			(at 127.254 166.116 90)
 			(hide yes)
 			(show_name no)
@@ -4231,6 +4330,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 128.27 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C114760"
 			(at 128.27 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -4288,7 +4398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:RES_33k"
 			(at 120.904 84.074 90)
 			(hide yes)
 			(show_name no)
@@ -4311,6 +4421,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 120.65 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C728559"
 			(at 120.65 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4474,6 +4595,17 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC" "C3679601"
+			(at 251.46 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c9aae9e4-cf2a-476a-ada0-38114a1bb156")
 		)
@@ -4564,6 +4696,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1346736"
+			(at 88.9 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "073aab92-b6b6-4c6a-a25f-790b17b18567")
 		)
@@ -4629,7 +4772,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:CAP_0.1uF_50V"
 			(at 52.07 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4652,6 +4795,17 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 52.07 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C127833"
 			(at 52.07 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4711,7 +4865,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:RES_510"
 			(at 65.024 61.976 90)
 			(hide yes)
 			(show_name no)
@@ -4734,6 +4888,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 66.04 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1881350"
 			(at 66.04 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4793,7 +4958,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:CAP_0.1uF_50V"
 			(at 226.06 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4816,6 +4981,17 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 226.06 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C127833"
 			(at 226.06 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -4875,7 +5051,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:RES_12k"
 			(at 127.254 129.286 90)
 			(hide yes)
 			(show_name no)
@@ -4898,6 +5074,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 128.27 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C114760"
 			(at 128.27 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4957,7 +5144,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:RES_510"
 			(at 65.024 176.276 90)
 			(hide yes)
 			(show_name no)
@@ -4980,6 +5167,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 66.04 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1881350"
 			(at 66.04 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -5039,7 +5237,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:CAP_0.1uF_50V"
 			(at 115.57 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5062,6 +5260,17 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 115.57 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C127833"
 			(at 115.57 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5100,28 +5309,26 @@
 		(fields_autoplaced yes)
 		(uuid "b377e33c-79cb-48e1-813d-4d28da05c03c")
 		(property "Reference" "P3"
-			(at 26.67 90.1701 0)
+			(at 29.21 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 26.67 87.6301 0)
+		(property "Value" "loadcell 2"
+			(at 29.21 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:HEADER_4pin"
 			(at 29.21 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5144,6 +5351,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C293663"
 			(at 29.21 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5207,7 +5425,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:RES_33k"
 			(at 120.904 122.174 90)
 			(hide yes)
 			(show_name no)
@@ -5230,6 +5448,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 120.65 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C728559"
 			(at 120.65 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5268,28 +5497,26 @@
 		(fields_autoplaced yes)
 		(uuid "b7ee6d3f-b98b-4b4c-8bc4-a85933495ce4")
 		(property "Reference" "P5"
-			(at 26.67 165.1001 0)
+			(at 29.21 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 26.67 162.5601 0)
+		(property "Value" "loadcell 4"
+			(at 29.21 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:HEADER_4pin"
 			(at 29.21 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -5312,6 +5539,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C293663"
 			(at 29.21 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -5409,6 +5647,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1346736"
+			(at 88.9 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4784c00b-7ecb-4739-8fe8-8f5f106b5e53")
 		)
@@ -5455,28 +5704,26 @@
 		(fields_autoplaced yes)
 		(uuid "bed2a587-80f9-48e9-af2d-645ae1296999")
 		(property "Reference" "P4"
-			(at 26.67 128.2701 0)
+			(at 29.21 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 26.67 125.7301 0)
+		(property "Value" "loadcell 3"
+			(at 29.21 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:HEADER_4pin"
 			(at 29.21 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5499,6 +5746,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C293663"
 			(at 29.21 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -5641,7 +5899,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:RES_12k"
 			(at 127.254 91.186 90)
 			(hide yes)
 			(show_name no)
@@ -5664,6 +5922,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 128.27 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C114760"
 			(at 128.27 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5755,6 +6024,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1346736"
+			(at 88.9 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6633e5a3-176e-410a-bd6a-2602f322d2c2")
 		)
@@ -5820,7 +6100,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:RES_33k"
 			(at 120.904 159.004 90)
 			(hide yes)
 			(show_name no)
@@ -5843,6 +6123,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 120.65 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C728559"
 			(at 120.65 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -5902,7 +6193,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:CAP_0.1uF_50V"
 			(at 142.24 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5925,6 +6216,17 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 142.24 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C127833"
 			(at 142.24 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5984,7 +6286,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:CAP_0.1uF_50V"
 			(at 115.57 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6007,6 +6309,17 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 115.57 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C127833"
 			(at 115.57 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6066,7 +6379,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:CAP_0.1uF_50V"
 			(at 142.24 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -6089,6 +6402,17 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 142.24 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C127833"
 			(at 142.24 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -6148,7 +6472,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:RES_510"
 			(at 65.024 101.346 90)
 			(hide yes)
 			(show_name no)
@@ -6171,6 +6495,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 66.04 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1881350"
 			(at 66.04 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6209,28 +6544,26 @@
 		(fields_autoplaced yes)
 		(uuid "e05dd6f6-e0cb-49e0-b95f-ab3d7e1534aa")
 		(property "Reference" "P2"
-			(at 26.67 50.8001 0)
+			(at 29.21 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 26.67 48.2601 0)
+		(property "Value" "loadcell 1"
+			(at 29.21 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:HEADER_4pin"
 			(at 29.21 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6253,6 +6586,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C293663"
 			(at 29.21 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6318,7 +6662,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:CAP_0.1uF_50V"
 			(at 115.57 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -6341,6 +6685,17 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
+			(at 115.57 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C127833"
 			(at 115.57 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -6400,7 +6755,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Gen1.5_PCB:RES_12k"
 			(at 127.254 51.816 90)
 			(hide yes)
 			(show_name no)
@@ -6423,6 +6778,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 128.27 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C114760"
 			(at 128.27 52.07 0)
 			(hide yes)
 			(show_name no)
