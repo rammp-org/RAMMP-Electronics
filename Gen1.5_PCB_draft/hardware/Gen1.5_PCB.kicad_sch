@@ -5537,6 +5537,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C85858"
+			(at 252.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c2af9f8f-f795-4f22-8acf-83f116caccb4")
 		)
@@ -6066,7 +6077,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C127833"
+		(property "LCSC" "C85858"
 			(at 99.06 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9263,6 +9274,16 @@
 				)
 			)
 		)
+		(property "LCSC" "C23654"
+			(at 226.06 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "05acdf17-d422-415a-bdbe-70bc8565aeda")
 		)
@@ -9659,7 +9680,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C127833"
+		(property "LCSC" "C85858"
 			(at 185.42 91.44 0)
 			(hide yes)
 			(show_name no)

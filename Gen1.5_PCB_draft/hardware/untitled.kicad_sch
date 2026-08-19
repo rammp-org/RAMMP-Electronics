@@ -566,7 +566,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Gen1.5_PCB:INA118PB"
+		(symbol "Gen1.5_PCB:INA118U_2K5"
 			(pin_names
 				(offset 1.016)
 			)
@@ -586,7 +586,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "INA118PB"
+			(property "Value" "INA118U_2K5"
 				(at -12.7 -19.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -597,7 +597,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "INA118PB:DIP794W45P254L959H508Q8"
+			(property "Footprint" "INA118U_2K5:SOIC127P599X175-8N"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -631,10 +631,10 @@
 					)
 				)
 			)
-			(symbol "INA118PB_0_0"
+			(symbol "INA118U_2K5_0_0"
 				(rectangle
-					(start -12.7 -15.24)
-					(end 12.7 12.7)
+					(start -12.7 12.7)
+					(end 12.7 -15.24)
 					(stroke
 						(width 0.41)
 						(type default)
@@ -664,7 +664,7 @@
 				(pin input line
 					(at -17.78 -2.54 0)
 					(length 5.08)
-					(name "VIN-"
+					(name "V-_IN"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -682,7 +682,7 @@
 				(pin input line
 					(at -17.78 0 0)
 					(length 5.08)
-					(name "VIN+"
+					(name "V+_IN"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -700,7 +700,7 @@
 				(pin power_in line
 					(at 17.78 7.62 180)
 					(length 5.08)
-					(name "-V"
+					(name "V-"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -754,7 +754,7 @@
 				(pin power_in line
 					(at 17.78 10.16 180)
 					(length 5.08)
-					(name "+V"
+					(name "V+"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2948,7 +2948,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C127833"
+		(property "LCSC" "C85858"
 			(at 52.07 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3039,7 +3039,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C127833"
+		(property "LCSC" "C85858"
 			(at 52.07 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3060,6 +3060,115 @@
 			(project "Gen1.5_PCB"
 				(path "/c13c24a6-83ca-4c4d-a0ab-6cb72df77012/da8c8529-7eef-4fa5-b5f7-835066021546"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Gen1.5_PCB:INA118U_2K5")
+		(at 88.9 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2688f51c-e5a9-4bba-b596-65a8d7a1b6f5")
+		(property "Reference" "U9"
+			(at 88.9 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA118U_2K5"
+			(at 88.9 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Gen1.5_PCB:INA118U_2K5"
+			(at 88.9 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C431293"
+			(at 88.9 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "e14521b4-c310-4d0f-9eee-d21d9cb95d37")
+		)
+		(pin "8"
+			(uuid "0be5c24d-4984-459a-9819-e6b862d4134e")
+		)
+		(pin "1"
+			(uuid "f39b3430-883b-4beb-af97-ec2b7d5fcfc6")
+		)
+		(pin "5"
+			(uuid "0c38d77b-d8cc-4856-8a51-78a557564557")
+		)
+		(pin "2"
+			(uuid "954ae70c-658b-4c4f-aa56-d8147127227b")
+		)
+		(pin "4"
+			(uuid "3f12e043-363f-41df-90b8-af20864f99f5")
+		)
+		(pin "7"
+			(uuid "e28de68b-0d04-455b-ab78-ada366f4d1a3")
+		)
+		(pin "3"
+			(uuid "902ee325-cd12-4c4c-b00b-e04fdb5a4038")
+		)
+		(instances
+			(project "Gen1.5_PCB"
+				(path "/c13c24a6-83ca-4c4d-a0ab-6cb72df77012/da8c8529-7eef-4fa5-b5f7-835066021546"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -3627,7 +3736,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C127833"
+		(property "LCSC" "C85858"
 			(at 142.24 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3648,116 +3757,6 @@
 			(project "Gen1.5_PCB"
 				(path "/c13c24a6-83ca-4c4d-a0ab-6cb72df77012/da8c8529-7eef-4fa5-b5f7-835066021546"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Gen1.5_PCB:INA118PB")
-		(at 88.9 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48e52e28-7045-4910-a47b-73b689a5509e")
-		(property "Reference" "U5"
-			(at 88.9 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA118PB"
-			(at 88.9 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Gen1.5_PCB:INA118PB"
-			(at 88.9 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1346736"
-			(at 88.9 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "68f0115b-bc45-4b61-ab8a-79dd47270645")
-		)
-		(pin "6"
-			(uuid "9e5bc53a-f5cf-4cd6-be55-d86d5f32f089")
-		)
-		(pin "1"
-			(uuid "ee3c7b39-c0ff-49ee-9b57-bc21dc665b88")
-		)
-		(pin "3"
-			(uuid "2f74255a-4cab-4847-b915-ed4643b7884f")
-		)
-		(pin "4"
-			(uuid "9c1b123a-fd70-4eca-b428-1fce47eb1ef5")
-		)
-		(pin "5"
-			(uuid "4f9695e4-3c8b-4d71-9f77-9049a3d840d1")
-		)
-		(pin "7"
-			(uuid "95d1a1bd-e078-4730-9484-1c54813e8f06")
-		)
-		(pin "8"
-			(uuid "80241261-932e-4d44-9e64-b606d19bf9c5")
-		)
-		(instances
-			(project "Gen1.5_PCB"
-				(path "/c13c24a6-83ca-4c4d-a0ab-6cb72df77012/da8c8529-7eef-4fa5-b5f7-835066021546"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3830,7 +3829,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C127833"
+		(property "LCSC" "C85858"
 			(at 115.57 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4078,7 +4077,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C127833"
+		(property "LCSC" "C85858"
 			(at 142.24 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4247,7 +4246,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C127833"
+		(property "LCSC" "C85858"
 			(at 52.07 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -4631,8 +4630,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Gen1.5_PCB:INA118PB")
-		(at 88.9 48.26 0)
+		(lib_id "Gen1.5_PCB:INA118U_2K5")
+		(at 88.9 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4641,9 +4640,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "75a6e905-5ac6-49f0-8d8e-4a673f012b26")
-		(property "Reference" "U3"
-			(at 88.9 30.48 0)
+		(uuid "835a36f8-551c-482c-8070-971f875fb8b1")
+		(property "Reference" "U11"
+			(at 88.9 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4652,8 +4651,8 @@
 				)
 			)
 		)
-		(property "Value" "INA118PB"
-			(at 88.9 33.02 0)
+		(property "Value" "INA118U_2K5"
+			(at 88.9 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4662,8 +4661,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Gen1.5_PCB:INA118PB"
-			(at 88.9 48.26 0)
+		(property "Footprint" "Gen1.5_PCB:INA118U_2K5"
+			(at 88.9 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4675,7 +4674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 48.26 0)
+			(at 88.9 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4686,7 +4685,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 48.26 0)
+			(at 88.9 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4696,9 +4695,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C1346736"
-			(at 88.9 48.26 0)
-			(hide yes)
+		(property "LCSC" "C431293"
+			(at 88.9 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4706,35 +4704,35 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "073aab92-b6b6-4c6a-a25f-790b17b18567")
 		)
 		(pin "6"
-			(uuid "ac1d95b7-3b27-4d8d-8854-f690ab6ffa32")
-		)
-		(pin "1"
-			(uuid "bf02ed6e-0b1b-43e9-8be8-4490cc52205b")
-		)
-		(pin "3"
-			(uuid "618271ef-afc8-4aa9-aa0c-c20cd69eea51")
-		)
-		(pin "4"
-			(uuid "abee1c3c-e177-4966-bb78-7b73d1dca3dc")
-		)
-		(pin "5"
-			(uuid "943bfdd0-e60f-4dd5-8896-46e5cfc8d60a")
-		)
-		(pin "7"
-			(uuid "545a3b27-7ece-4b0a-8491-e919657e90a9")
+			(uuid "3d1d012b-3a00-4899-8294-04b00c8183e5")
 		)
 		(pin "8"
-			(uuid "dadfd386-79e6-41d1-a16c-af2106800551")
+			(uuid "26acabfd-51c0-4743-b71d-428570f05ef9")
+		)
+		(pin "1"
+			(uuid "56274f92-f280-4c69-adeb-99c7640064ef")
+		)
+		(pin "5"
+			(uuid "5b2471f9-f266-40cc-b302-177b35ca0ac3")
+		)
+		(pin "2"
+			(uuid "4cf7cb68-8cb3-42f2-9ce8-933f816b27e3")
+		)
+		(pin "4"
+			(uuid "b76971c7-13dd-4e5e-a7e1-24af2adc7fba")
+		)
+		(pin "7"
+			(uuid "9a0c58a2-a361-4223-8526-6e82ce949e3e")
+		)
+		(pin "3"
+			(uuid "4ce2a7b6-a310-4568-b68e-e123e4d862ab")
 		)
 		(instances
 			(project "Gen1.5_PCB"
 				(path "/c13c24a6-83ca-4c4d-a0ab-6cb72df77012/da8c8529-7eef-4fa5-b5f7-835066021546"
-					(reference "U3")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -4805,7 +4803,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C127833"
+		(property "LCSC" "C85858"
 			(at 52.07 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4991,7 +4989,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C127833"
+		(property "LCSC" "C85858"
 			(at 226.06 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -5270,7 +5268,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C127833"
+		(property "LCSC" "C85858"
 			(at 115.57 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5582,116 +5580,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Gen1.5_PCB:INA118PB")
-		(at 88.9 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "baa5de6d-a28c-4830-ac31-d1555f278e6a")
-		(property "Reference" "U6"
-			(at 88.9 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA118PB"
-			(at 88.9 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Gen1.5_PCB:INA118PB"
-			(at 88.9 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1346736"
-			(at 88.9 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4784c00b-7ecb-4739-8fe8-8f5f106b5e53")
-		)
-		(pin "6"
-			(uuid "01b888a3-70f2-4581-aadf-bc1f504b51e2")
-		)
-		(pin "1"
-			(uuid "3204128f-5fd9-47a0-b905-1856c2b5c6e1")
-		)
-		(pin "3"
-			(uuid "99aef454-7f7b-4944-adfd-deec7ca25b91")
-		)
-		(pin "4"
-			(uuid "ff3a260c-0e00-49f9-ae37-eb58048f834f")
-		)
-		(pin "5"
-			(uuid "b91f520b-b318-4e09-a4c3-636697cbc05e")
-		)
-		(pin "7"
-			(uuid "e96228de-ace9-4fdf-887b-f34090aa291d")
-		)
-		(pin "8"
-			(uuid "4a860d1e-8ec1-4bd8-b83d-95325386b198")
-		)
-		(instances
-			(project "Gen1.5_PCB"
-				(path "/c13c24a6-83ca-4c4d-a0ab-6cb72df77012/da8c8529-7eef-4fa5-b5f7-835066021546"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 29.21 128.27 180)
 		(unit 1)
@@ -5959,116 +5847,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Gen1.5_PCB:INA118PB")
-		(at 88.9 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7e463ea-4561-4aa4-940f-b1a2709ecac1")
-		(property "Reference" "U7"
-			(at 88.9 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA118PB"
-			(at 88.9 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Gen1.5_PCB:INA118PB"
-			(at 88.9 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1346736"
-			(at 88.9 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6633e5a3-176e-410a-bd6a-2602f322d2c2")
-		)
-		(pin "6"
-			(uuid "0cfe1c8f-a7c0-425a-a515-6aa2f532fe5c")
-		)
-		(pin "1"
-			(uuid "f7f88c19-efcc-43d1-b1ab-47657e121731")
-		)
-		(pin "3"
-			(uuid "91296347-9919-4454-8e66-96857c113913")
-		)
-		(pin "4"
-			(uuid "1d3f40b2-31a0-452c-855a-4f48f590f21a")
-		)
-		(pin "5"
-			(uuid "038d4a7b-2cac-46d3-b5f5-c71e1104f207")
-		)
-		(pin "7"
-			(uuid "9c21f1ec-de8e-4556-8c57-cdf40f87caa6")
-		)
-		(pin "8"
-			(uuid "6c01c2d1-610f-498d-ad16-b26c59c79763")
-		)
-		(instances
-			(project "Gen1.5_PCB"
-				(path "/c13c24a6-83ca-4c4d-a0ab-6cb72df77012/da8c8529-7eef-4fa5-b5f7-835066021546"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 120.65 160.02 90)
 		(unit 1)
@@ -6226,7 +6004,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C127833"
+		(property "LCSC" "C85858"
 			(at 142.24 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6247,6 +6025,115 @@
 			(project "Gen1.5_PCB"
 				(path "/c13c24a6-83ca-4c4d-a0ab-6cb72df77012/da8c8529-7eef-4fa5-b5f7-835066021546"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Gen1.5_PCB:INA118U_2K5")
+		(at 88.9 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf73b1ca-d5a6-414e-b47c-ee512faaf366")
+		(property "Reference" "U10"
+			(at 88.9 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA118U_2K5"
+			(at 88.9 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Gen1.5_PCB:INA118U_2K5"
+			(at 88.9 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C431293"
+			(at 88.9 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "c904d033-df5d-4c87-856b-4a933dc2673b")
+		)
+		(pin "8"
+			(uuid "a5f6c54b-1a7e-4f42-a28d-f08694fd7073")
+		)
+		(pin "1"
+			(uuid "0a98eed5-3c77-4c7f-a41e-e914fb2e4724")
+		)
+		(pin "5"
+			(uuid "9f2039b6-a4b8-486b-b953-da1b7f5cceb8")
+		)
+		(pin "2"
+			(uuid "0e1232a3-11e4-4cad-98b4-31f9aaf9b74f")
+		)
+		(pin "4"
+			(uuid "2d406426-1e9e-463f-8e64-856088514eed")
+		)
+		(pin "7"
+			(uuid "8d10d898-635d-475f-9c8c-91ea087de30a")
+		)
+		(pin "3"
+			(uuid "d6596fba-0c0a-4a79-9068-e20f490faaf6")
+		)
+		(instances
+			(project "Gen1.5_PCB"
+				(path "/c13c24a6-83ca-4c4d-a0ab-6cb72df77012/da8c8529-7eef-4fa5-b5f7-835066021546"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -6319,7 +6206,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C127833"
+		(property "LCSC" "C85858"
 			(at 115.57 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6412,7 +6299,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C127833"
+		(property "LCSC" "C85858"
 			(at 142.24 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -6629,6 +6516,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Gen1.5_PCB:INA118U_2K5")
+		(at 88.9 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2205bcf-8dad-47d8-b787-d41737b454b7")
+		(property "Reference" "U12"
+			(at 88.9 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA118U_2K5"
+			(at 88.9 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Gen1.5_PCB:INA118U_2K5"
+			(at 88.9 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C431293"
+			(at 88.9 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "c712e908-dd2b-411a-b284-89c960259b63")
+		)
+		(pin "8"
+			(uuid "b93423a2-cc87-4151-955f-ed8889402ca2")
+		)
+		(pin "1"
+			(uuid "a6ede847-4ca5-409c-98ff-db5e0508b490")
+		)
+		(pin "5"
+			(uuid "201dc2ff-4e17-4e7d-a03e-ab77f2c74c19")
+		)
+		(pin "2"
+			(uuid "5965a6f9-7977-480d-80f6-fea4ad57ab89")
+		)
+		(pin "4"
+			(uuid "e7575fbf-2ad3-446c-8cee-7d08dde55a4d")
+		)
+		(pin "7"
+			(uuid "d6aee040-1f39-4cc9-af42-60959ec8805d")
+		)
+		(pin "3"
+			(uuid "bd5aadf0-ebf6-4c4b-bb5e-ff4d9bf97423")
+		)
+		(instances
+			(project "Gen1.5_PCB"
+				(path "/c13c24a6-83ca-4c4d-a0ab-6cb72df77012/da8c8529-7eef-4fa5-b5f7-835066021546"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_US")
 		(at 115.57 166.37 180)
 		(unit 1)
@@ -6695,7 +6691,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C127833"
+		(property "LCSC" "C85858"
 			(at 115.57 166.37 0)
 			(hide yes)
 			(show_name no)
