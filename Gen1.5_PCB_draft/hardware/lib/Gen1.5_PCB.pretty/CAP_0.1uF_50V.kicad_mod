@@ -1,35 +1,158 @@
-
-(footprint CAPC1608X90 (layer F.Cu) (tedit 6A83828D)
-  (descr "<b>CAPACITOR</b>")
-  (attr smd)
-  (fp_text reference REF** (at -0.2354225 -1.2372135 0) (layer F.SilkS)
-    (effects (font (size 0.473287401575 0.473287401575) (thickness 0.15)))
-  )
-  (fp_text value CAPC1608X90 (at 1.56646 1.20613 0) (layer F.Fab)
-    (effects (font (size 0.472881889764 0.472881889764) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -0.85 0.0) (size 1.1 1.0) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 0.85 0.0) (size 1.1 1.0) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start -1.673 -0.783) (end 1.673 -0.783) (layer F.CrtYd) (width 0.0508))
-  (fp_line (start 1.673 -0.783) (end 1.673 0.783) (layer F.CrtYd) (width 0.0508))
-  (fp_line (start 1.673 0.783) (end -1.673 0.783) (layer F.CrtYd) (width 0.0508))
-  (fp_line (start -1.673 0.783) (end -1.673 -0.783) (layer F.CrtYd) (width 0.0508))
-  (fp_line (start -0.356 -0.432) (end 0.356 -0.432) (layer F.Fab) (width 0.1016))
-  (fp_line (start -0.356 0.419) (end 0.356 0.419) (layer F.Fab) (width 0.1016))
-  (fp_poly
-    (pts
-      (xy -0.838275 -0.4801)
-      (xy -0.3381 -0.4801)
-      (xy -0.3381 0.469942)
-      (xy -0.838275 0.469942)
-    ) (layer F.Fab) (width 0.01)
-  )
-  (fp_poly
-    (pts
-      (xy 0.330282 -0.4801)
-      (xy 0.8303 -0.4801)
-      (xy 0.8303 0.470017)
-      (xy 0.330282 0.470017)
-    ) (layer F.Fab) (width 0.01)
-  )
+(footprint "CAP_0.1uF_50V"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.3 -0.88 0)
+		(layer "F.SilkS")
+		(uuid "9af98ba8-1b10-4e4e-956e-81baf5fc8487")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "CAPC1005X55N"
+		(at 2.05 0.88 0)
+		(layer "F.Fab")
+		(uuid "1904450e-9e0a-4712-953e-a5355aff78c0")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcdc828d-0f6a-4b57-9957-4bd1c656893a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78eb3516-d7de-41f3-bc6c-7c310d403011")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.95 -0.55)
+		(end 0.95 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "70622f13-ab44-4a7e-90fd-49f491f0139d")
+	)
+	(fp_line
+		(start -0.95 0.55)
+		(end -0.95 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc439fc2-70e1-40ee-a96e-d94c0780ae60")
+	)
+	(fp_line
+		(start -0.95 0.55)
+		(end 0.95 0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c8a3af6-7bf4-4e99-b5c0-327cb77915b2")
+	)
+	(fp_line
+		(start 0.95 0.55)
+		(end 0.95 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "faf69986-ba74-478c-92de-71069247b730")
+	)
+	(fp_line
+		(start -0.53 0.28)
+		(end -0.53 -0.28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a082b3e-1751-46aa-b7cb-f1bc3f1e4876")
+	)
+	(fp_line
+		(start 0.53 -0.28)
+		(end -0.53 -0.28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "129362c1-5f7a-4def-907a-3737041207fd")
+	)
+	(fp_line
+		(start 0.53 0.28)
+		(end -0.53 0.28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76e70998-638f-4ca4-b508-af959cd2af9d")
+	)
+	(fp_line
+		(start 0.53 0.28)
+		(end 0.53 -0.28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ef46cfa-5aff-4548-8d8d-512887da92f3")
+	)
+	(pad "1" smd rect
+		(at -0.432 0)
+		(size 0.54 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "cd7d1f55-e3bc-4696-86e2-113b54d783bb")
+	)
+	(pad "2" smd rect
+		(at 0.432 0)
+		(size 0.54 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c95c6310-d059-4db2-a68d-dc476b890d07")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d models/CAP_0.1uF_50V.step"
+		(offset
+			(xyz 0 -0.28 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

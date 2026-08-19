@@ -1,21 +1,158 @@
-
-(footprint BEADC1005X55N (layer F.Cu) (tedit 6A839757)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at 0.3 -0.88 0) (layer F.SilkS)
-    (effects (font (size 0.393700787402 0.393700787402) (thickness 0.15)))
-  )
-  (fp_text value BEADC1005X55N (at 2.3 0.88 0) (layer F.Fab)
-    (effects (font (size 0.393700787402 0.393700787402) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -0.432 0.0) (size 0.54 0.6) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 0.432 0.0) (size 0.54 0.6) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start 0.53 0.28) (end -0.53 0.28) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.53 -0.28) (end -0.53 -0.28) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.53 0.28) (end 0.53 -0.28) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.53 0.28) (end -0.53 -0.28) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.95 0.55) (end 0.95 0.55) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.95 -0.55) (end 0.95 -0.55) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.95 0.55) (end -0.95 -0.55) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 0.95 0.55) (end 0.95 -0.55) (layer F.CrtYd) (width 0.05))
+(footprint "Ferrite_220"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.3 -0.88 0)
+		(layer "F.SilkS")
+		(uuid "7a57df7d-02f6-4841-80e4-d11f44fdbd74")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "BEADC1005X55N"
+		(at 2.3 0.88 0)
+		(layer "F.Fab")
+		(uuid "909847a8-aa27-4304-952b-4b9999bdccbe")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d45d575-7b45-4491-b062-fc27ca754d15")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d80acc2-4a7a-4588-8119-6b26d8613bb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.95 -0.55)
+		(end 0.95 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "18ef2d81-78e1-4f89-a60d-b048cbd95bb2")
+	)
+	(fp_line
+		(start -0.95 0.55)
+		(end -0.95 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "36cf90a7-6cb3-46e6-af58-ddc313987b05")
+	)
+	(fp_line
+		(start -0.95 0.55)
+		(end 0.95 0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "06e6154c-5341-42ab-a56a-bb6a1fcd1d04")
+	)
+	(fp_line
+		(start 0.95 0.55)
+		(end 0.95 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7701fc0b-bdb1-404d-ba91-3eb9b0fff78b")
+	)
+	(fp_line
+		(start -0.53 0.28)
+		(end -0.53 -0.28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af76c7e7-5ebe-4f19-be58-d57a8b54e081")
+	)
+	(fp_line
+		(start 0.53 -0.28)
+		(end -0.53 -0.28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bbf98e92-912c-44bb-8f13-4fb0a70e8812")
+	)
+	(fp_line
+		(start 0.53 0.28)
+		(end -0.53 0.28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f5f3f6be-65ec-4db7-81f0-82d50590e873")
+	)
+	(fp_line
+		(start 0.53 0.28)
+		(end 0.53 -0.28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8d30d83-965e-4553-8bf3-ed4192280a31")
+	)
+	(pad "1" smd rect
+		(at -0.432 0)
+		(size 0.54 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "94502a22-f581-4d7b-84cd-1a60fe6179c2")
+	)
+	(pad "2" smd rect
+		(at 0.432 0)
+		(size 0.54 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "975c71be-d0fb-4889-88dd-4860c1dd4d2e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d models/Ferrite_220.step"
+		(offset
+			(xyz 0 -0.28 0.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

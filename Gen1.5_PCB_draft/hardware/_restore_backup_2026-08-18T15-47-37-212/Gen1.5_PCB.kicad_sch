@@ -3759,10 +3759,6 @@
 		(uuid "27f3805f-bd00-4b34-a1d0-04b5c3061391")
 	)
 	(no_connect
-		(at 25.4 171.45)
-		(uuid "3e11bfb8-c054-4b0f-97f5-46f1f52074db")
-	)
-	(no_connect
 		(at 59.69 63.5)
 		(uuid "42e2e8a6-2a96-402d-8888-9a9cce3f317f")
 	)
@@ -4689,6 +4685,16 @@
 			(justify right bottom)
 		)
 		(uuid "3859e4bc-23cc-42d2-9abd-38c9e4ba621e")
+	)
+	(label "MOSI"
+		(at 25.4 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38f9a171-1b8f-4247-abad-e76de79c6977")
 	)
 	(label "GND"
 		(at 59.69 115.57 180)
