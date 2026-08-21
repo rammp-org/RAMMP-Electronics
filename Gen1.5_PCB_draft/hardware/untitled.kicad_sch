@@ -1158,6 +1158,16 @@
 		)
 		(uuid "0e535105-9826-4eed-972e-5319c7239413")
 	)
+	(text "**Vref is biasing 1.65V\n"
+		(exclude_from_sim no)
+		(at 252.222 53.34 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "7ec0f05f-24ef-491f-b981-5c19b89d8197")
+	)
 	(text "RC filter calculation"
 		(exclude_from_sim no)
 		(at 190.5 113.03 0)
