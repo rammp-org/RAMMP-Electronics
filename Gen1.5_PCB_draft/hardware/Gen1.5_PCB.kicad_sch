@@ -3846,6 +3846,12 @@
 		(uuid "08be6dfe-80b6-4e25-bf03-7b201e6ddb6b")
 	)
 	(junction
+		(at 204.47 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1166477c-4d86-45ad-9ff1-6201744ab696")
+	)
+	(junction
 		(at 106.68 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3856,6 +3862,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22e08836-11da-4e92-9450-005e36937541")
+	)
+	(junction
+		(at 187.96 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27f95c57-ddba-4c5d-8fa9-86a4a94215cb")
+	)
+	(junction
+		(at 204.47 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "293b343d-bd40-4eac-ae83-7cd626e010d1")
 	)
 	(junction
 		(at 106.68 74.93)
@@ -4151,6 +4169,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 77.47) (xy 204.47 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329f1678-7254-4002-abfb-932cbc44c062")
+	)
+	(wire
+		(pts
 			(xy 73.66 46.99) (xy 80.01 46.99)
 		)
 		(stroke
@@ -4158,6 +4186,16 @@
 			(type default)
 		)
 		(uuid "331d0272-0b1c-4277-9a82-bf05185b627f")
+	)
+	(wire
+		(pts
+			(xy 207.01 80.01) (xy 204.47 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3401c379-4d6a-488e-9283-69121350cf51")
 	)
 	(wire
 		(pts
@@ -4278,6 +4316,16 @@
 			(type default)
 		)
 		(uuid "48d61f5f-1eab-47ab-9bf0-823fbb5a34c4")
+	)
+	(wire
+		(pts
+			(xy 218.44 60.96) (xy 218.44 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd66dfd-f046-4e81-b6d0-ec823a5b9b6c")
 	)
 	(wire
 		(pts
@@ -4441,16 +4489,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 60.96) (xy 218.44 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8eb3ed32-9397-4cae-b9e0-ff76b30d7eed")
-	)
-	(wire
-		(pts
 			(xy 128.27 185.42) (xy 128.27 186.69)
 		)
 		(stroke
@@ -4488,6 +4526,16 @@
 			(type default)
 		)
 		(uuid "a0de979c-a290-4209-a10e-315ffad99c59")
+	)
+	(wire
+		(pts
+			(xy 204.47 77.47) (xy 199.39 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d753d6-25ee-482d-aa8d-966d5d328bb2")
 	)
 	(wire
 		(pts
@@ -4598,6 +4646,26 @@
 			(type default)
 		)
 		(uuid "ce0763a7-6d2b-48f0-abb2-61d69b039638")
+	)
+	(wire
+		(pts
+			(xy 187.96 36.83) (xy 185.42 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3c5ccc-7877-4794-bc30-d740863b0d7a")
+	)
+	(wire
+		(pts
+			(xy 194.31 36.83) (xy 187.96 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8a544a-e5ab-4196-b9af-43d75d91a67d")
 	)
 	(wire
 		(pts
@@ -4721,7 +4789,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 93.98) (xy 218.44 88.9)
+			(xy 218.44 88.9) (xy 218.44 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4748,6 +4816,16 @@
 			(type default)
 		)
 		(uuid "f7fbacf4-5ac8-45ac-aafe-6e2e08183a95")
+	)
+	(wire
+		(pts
+			(xy 204.47 80.01) (xy 199.39 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb20b6d-418d-4e96-a193-a3017562d123")
 	)
 	(wire
 		(pts
@@ -4820,7 +4898,7 @@
 		(uuid "09f8ab3d-b669-4437-aee3-3abfb6acbc97")
 	)
 	(label "CANH"
-		(at 199.39 80.01 0)
+		(at 207.01 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5631,7 +5709,7 @@
 		(uuid "f1e2082d-c483-4b1d-b80f-64d963d2c0ea")
 	)
 	(label "CAN RX_1"
-		(at 185.42 36.83 0)
+		(at 194.31 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5671,7 +5749,7 @@
 		(uuid "f8b46460-15bc-4562-96ef-4a93991bbc32")
 	)
 	(label "CANL"
-		(at 199.39 77.47 0)
+		(at 207.01 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9122,6 +9200,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Gen1.5_PCB:5003")
+		(at 204.47 72.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ed52b67-0d4a-4ed6-b4aa-3cbac28f1020")
+		(property "Reference" "TP8"
+			(at 207.01 71.1199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5003"
+			(at 207.01 73.6599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Gen1.5_PCB:test_point"
+			(at 204.47 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 204.47 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 204.47 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 204.47 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+			(at 204.47 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 204.47 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "TP"
+			(uuid "24e89039-930e-4fbe-9e4a-0cec53c28176")
+		)
+		(instances
+			(project "Gen1.5_PCB"
+				(path "/c13c24a6-83ca-4c4d-a0ab-6cb72df77012"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_US")
 		(at 72.39 81.28 0)
 		(unit 1)
@@ -9476,6 +9694,146 @@
 			(project "Gen1.5_PCB"
 				(path "/c13c24a6-83ca-4c4d-a0ab-6cb72df77012"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Gen1.5_PCB:5003")
+		(at 204.47 85.09 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72e72ebf-bd12-4b3b-b2a4-b16271cdaf5d")
+		(property "Reference" "TP9"
+			(at 207.01 83.8199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5003"
+			(at 207.01 86.3599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Gen1.5_PCB:test_point"
+			(at 204.47 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 204.47 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 204.47 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 204.47 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+			(at 204.47 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 204.47 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "TP"
+			(uuid "209144eb-1645-48ba-be2d-6036fbe146ef")
+		)
+		(instances
+			(project "Gen1.5_PCB"
+				(path "/c13c24a6-83ca-4c4d-a0ab-6cb72df77012"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -11229,6 +11587,146 @@
 			(project "Gen1.5_PCB"
 				(path "/c13c24a6-83ca-4c4d-a0ab-6cb72df77012"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Gen1.5_PCB:5003")
+		(at 187.96 41.91 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb9e22f2-cb3f-4147-ae14-e8cd61e562b6")
+		(property "Reference" "TP10"
+			(at 190.5 40.6399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5003"
+			(at 190.5 43.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Gen1.5_PCB:test_point"
+			(at 187.96 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 187.96 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 187.96 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "5000"
+			(at 187.96 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57 mm"
+			(at 187.96 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 187.96 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "TP"
+			(uuid "ba0ba788-9240-4d08-a591-b49c2547f0df")
+		)
+		(instances
+			(project "Gen1.5_PCB"
+				(path "/c13c24a6-83ca-4c4d-a0ab-6cb72df77012"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
