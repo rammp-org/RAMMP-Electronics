@@ -5,164 +5,6 @@
 	(uuid "4d34fb7d-9709-4daf-91f4-2acbdf37e7f0")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016)
@@ -1905,44 +1747,32 @@
 		)
 	)
 	(junction
-		(at 157.48 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00e7112c-9ae6-408d-a414-d6f19271ec8c")
-	)
-	(junction
-		(at 180.34 116.84)
+		(at 153.67 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17ae9daf-ec05-4c13-ae15-06328573ac01")
 	)
 	(junction
-		(at 196.85 116.84)
+		(at 170.18 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c2d3a47-c249-45e1-b49b-d36444f3bf1e")
 	)
-	(junction
-		(at 129.54 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5dbc0886-f524-4c58-926b-aa15c49f5b90")
+	(no_connect
+		(at 86.36 114.3)
+		(uuid "03f6c543-5eb7-410c-938f-e0f34f50ce2c")
 	)
-	(junction
-		(at 129.54 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a688afe-7252-474d-aa9f-77cc07785ca5")
-	)
-	(junction
-		(at 157.48 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d99cdb03-3db8-4c8a-8446-251e4a8df714")
+	(no_connect
+		(at 86.36 109.22)
+		(uuid "06b80331-dace-42ff-845c-f4dde56ac713")
 	)
 	(no_connect
 		(at 86.36 88.9)
 		(uuid "0782180e-c48c-460a-9454-d2a7b2d7c106")
+	)
+	(no_connect
+		(at 101.6 116.84)
+		(uuid "096c1b15-8390-40ee-8a7e-e6d1548a77f2")
 	)
 	(no_connect
 		(at 86.36 121.92)
@@ -1957,12 +1787,20 @@
 		(uuid "37a888cc-57a1-412d-8ab1-a647b96244fc")
 	)
 	(no_connect
+		(at 101.6 111.76)
+		(uuid "88911e83-9238-4fe4-9544-7fe5e899f5a1")
+	)
+	(no_connect
 		(at 86.36 93.98)
 		(uuid "96f92c13-7e65-4fa3-831d-7de7ad4810af")
 	)
 	(no_connect
 		(at 101.6 101.6)
 		(uuid "d4d0395e-dd74-4e89-9553-e3f942eb1213")
+	)
+	(no_connect
+		(at 101.6 96.52)
+		(uuid "dea1e74b-98a3-4601-bcce-8bbf7aee5cc5")
 	)
 	(no_connect
 		(at 101.6 121.92)
@@ -1974,7 +1812,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 114.3) (xy 180.34 116.84)
+			(xy 153.67 104.14) (xy 153.67 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1984,7 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 105.41) (xy 180.34 106.68)
+			(xy 153.67 95.25) (xy 153.67 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1994,37 +1832,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 92.71) (xy 163.83 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d04d6b3-056d-449e-a244-65690b447290")
-	)
-	(wire
-		(pts
-			(xy 157.48 76.2) (xy 163.83 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44f09e49-046d-4a46-ac6b-8a503daa4ace")
-	)
-	(wire
-		(pts
-			(xy 125.73 92.71) (xy 129.54 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "693114bb-7148-4bc2-93ea-7009ee728a38")
-	)
-	(wire
-		(pts
-			(xy 180.34 116.84) (xy 180.34 119.38)
+			(xy 153.67 106.68) (xy 153.67 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2034,7 +1842,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 116.84) (xy 196.85 116.84)
+			(xy 167.64 106.68) (xy 170.18 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2044,17 +1852,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 92.71) (xy 157.48 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e932e8a-044f-4672-9d5f-3de5c88150c2")
-	)
-	(wire
-		(pts
-			(xy 180.34 128.27) (xy 180.34 127)
+			(xy 153.67 118.11) (xy 153.67 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2064,53 +1862,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 76.2) (xy 135.89 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b701bb82-fde8-49b3-a27d-241ae7f21046")
-	)
-	(wire
-		(pts
-			(xy 180.34 116.84) (xy 186.69 116.84)
+			(xy 153.67 106.68) (xy 160.02 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b96ea396-d390-48c7-bb4d-98027e98ddf6")
-	)
-	(wire
-		(pts
-			(xy 125.73 76.2) (xy 129.54 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd4145c1-163d-4013-aa6a-13eb9ea464c2")
-	)
-	(wire
-		(pts
-			(xy 153.67 76.2) (xy 157.48 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d74f9632-dc18-46ef-b1f0-da7d872e88ae")
-	)
-	(wire
-		(pts
-			(xy 129.54 92.71) (xy 135.89 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e90739dd-8b6e-4a72-a9cd-c15512b3f0dd")
 	)
 	(label "GND"
 		(at 101.6 91.44 0)
@@ -2121,116 +1879,6 @@
 			(justify left bottom)
 		)
 		(uuid "00af675e-a66c-40c4-8aa4-4e096e17dea4")
-	)
-	(label "5V"
-		(at 157.48 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "08f9ee43-2d69-414b-92a9-5d42dfa0c818")
-	)
-	(label "5V"
-		(at 101.6 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "19612edc-e305-4e91-bfb5-52d60fe636e3")
-	)
-	(label "LS4"
-		(at 153.67 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "203ca358-4f94-437f-b131-0f943a11fc9f")
-	)
-	(label "CANH"
-		(at 144.78 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2a22517c-ae24-48e7-9682-548881d18cd4")
-	)
-	(label "LS3"
-		(at 86.36 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2dc1d192-794e-42d3-81b6-d8d126bb5689")
-	)
-	(label "LS4"
-		(at 101.6 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2ddd4d3d-e1e0-4289-9d17-81d447d7ed2f")
-	)
-	(label "LS1"
-		(at 86.36 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "35dee4f1-803d-4ae7-8a3e-c062c9d2b086")
-	)
-	(label "GND"
-		(at 135.89 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "38467044-dd9f-4d98-866e-adcf26571a5a")
-	)
-	(label "GND"
-		(at 144.78 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "787b0f72-2e83-4a87-aa4d-92735f9b589b")
-	)
-	(label "LS1"
-		(at 125.73 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7fe593bb-ee9f-4d88-a3a0-3d4ce4ae5942")
-	)
-	(label "LS2"
-		(at 125.73 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "85526a7a-8f8b-47e5-9f92-ddfbe31313b5")
 	)
 	(label "CANH"
 		(at 101.6 106.68 0)
@@ -2243,7 +1891,7 @@
 		(uuid "895545e1-9d86-4ad4-83ec-217fb5e14e30")
 	)
 	(label "GND"
-		(at 144.78 128.27 180)
+		(at 118.11 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2252,28 +1900,8 @@
 		)
 		(uuid "8b893292-58d0-4a18-a5e8-0629f3f8d496")
 	)
-	(label "5V"
-		(at 129.54 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ec0448d-b705-4588-bda3-86a22057ae37")
-	)
-	(label "GND"
-		(at 163.83 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "93d1d19b-4e08-4b9f-ad55-4379f8d78ed0")
-	)
 	(label "CANH"
-		(at 144.78 123.19 180)
+		(at 118.11 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2283,7 +1911,7 @@
 		(uuid "9827b45c-49f6-48d1-a2f1-303a029324b0")
 	)
 	(label "CANL"
-		(at 144.78 125.73 180)
+		(at 118.11 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2302,68 +1930,8 @@
 		)
 		(uuid "c30c4aed-82cb-4a5d-ba20-d6f04695c6e2")
 	)
-	(label "LS3"
-		(at 153.67 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c652520e-bc2d-4753-b37e-a22268348792")
-	)
-	(label "5V"
-		(at 129.54 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6f31a94-4ce6-4787-b6e5-a2106d20b1b9")
-	)
-	(label "LS2"
-		(at 101.6 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "caabbd01-80d9-4165-83fd-0f8ad4d0962f")
-	)
-	(label "5V"
-		(at 157.48 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3ed8261-5826-40e4-b25d-39a1da3addc8")
-	)
-	(label "GND"
-		(at 135.89 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d8ca2687-ab7a-4a48-9317-9c6323acbd6c")
-	)
-	(label "GND"
-		(at 163.83 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d8eac4d1-f343-4d66-b784-1691d098607e")
-	)
 	(label "CANL"
-		(at 180.34 128.27 180)
+		(at 153.67 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2373,7 +1941,7 @@
 		(uuid "eb56b00b-c900-45ca-a32d-94df43b9bf44")
 	)
 	(label "CANH"
-		(at 180.34 105.41 180)
+		(at 153.67 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2381,16 +1949,6 @@
 			(justify right bottom)
 		)
 		(uuid "f43fc459-5dba-4070-a89e-9c9f0ea70b9d")
-	)
-	(label "CANL"
-		(at 144.78 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f4d054fa-d206-42be-a93e-b6dc4810ee9e")
 	)
 	(symbol
 		(lib_id "mcp266_conn:conn_dsub_plug_15pos")
@@ -2520,7 +2078,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 180.34 110.49 0)
+		(at 153.67 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2531,7 +2089,7 @@
 		(fields_autoplaced yes)
 		(uuid "08384f99-f76b-4e83-961c-d085b7176d40")
 		(property "Reference" "R1"
-			(at 182.88 109.2199 0)
+			(at 156.21 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2542,7 +2100,7 @@
 			)
 		)
 		(property "Value" "60"
-			(at 182.88 111.7599 0)
+			(at 156.21 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2553,7 +2111,7 @@
 			)
 		)
 		(property "Footprint" "mcp266_conn:RESC3116X65N"
-			(at 181.356 110.744 90)
+			(at 154.686 100.584 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2564,7 +2122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 110.49 0)
+			(at 153.67 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2575,7 +2133,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 180.34 110.49 0)
+			(at 153.67 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2602,170 +2160,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 129.54 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1d6b4934-7138-4119-867d-8e5a4609aa01")
-		(property "Reference" "R3"
-			(at 131.1636 97.282 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5k"
-			(at 125.5756 96.774 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "mcp266_conn:RESC3116X65N"
-			(at 130.556 96.774 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 129.54 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1e3a1bd-f03e-4c6f-9ff2-c65c9ee3ce20")
-		)
-		(pin "2"
-			(uuid "455aab9c-f1fe-4d5e-bf3a-cdc32f87d527")
-		)
-		(instances
-			(project "mcp266_conn"
-				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 168.91 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "452bbe72-b4bb-414f-8cc9-517f348191cf")
-		(property "Reference" "J6"
-			(at 171.45 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LS4"
-			(at 171.45 92.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "mcp266_conn:HEADER90_2pin"
-			(at 168.91 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 168.91 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e600f48-eb16-4ed3-8974-b26de33e11ac")
-		)
-		(pin "2"
-			(uuid "b051d297-efcb-437c-be3e-264b24d5fec4")
-		)
-		(instances
-			(project "mcp266_conn"
-				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 180.34 123.19 0)
+		(at 153.67 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2776,7 +2171,7 @@
 		(fields_autoplaced yes)
 		(uuid "52a47410-6e54-461b-adcd-3daf40e5dccd")
 		(property "Reference" "R6"
-			(at 182.88 121.9199 0)
+			(at 156.21 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2787,7 +2182,7 @@
 			)
 		)
 		(property "Value" "60"
-			(at 182.88 124.4599 0)
+			(at 156.21 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2798,7 +2193,7 @@
 			)
 		)
 		(property "Footprint" "mcp266_conn:RESC3116X65N"
-			(at 181.356 123.444 90)
+			(at 154.686 113.284 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2809,7 +2204,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 123.19 0)
+			(at 153.67 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2820,7 +2215,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 180.34 123.19 0)
+			(at 153.67 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2846,90 +2241,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 168.91 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54832432-c266-4bcf-8dff-8788fe9619b7")
-		(property "Reference" "J5"
-			(at 171.45 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LS3"
-			(at 171.45 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "mcp266_conn:HEADER90_2pin"
-			(at 168.91 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 168.91 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0d0ea463-6c54-4a8c-a677-c96bd517a197")
-		)
-		(pin "2"
-			(uuid "81f4cc4e-3246-4520-bbd1-caca02ed30ff")
-		)
-		(instances
-			(project "mcp266_conn"
-				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_US")
-		(at 190.5 116.84 270)
+		(at 163.83 106.68 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2939,7 +2252,7 @@
 		(dnp no)
 		(uuid "6fc9875f-b7e1-4960-8c72-3ebd7e6511a6")
 		(property "Reference" "C1"
-			(at 190.5 113.538 90)
+			(at 163.83 103.378 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2949,7 +2262,7 @@
 			)
 		)
 		(property "Value" "47nf"
-			(at 190.754 121.158 90)
+			(at 164.084 110.998 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2959,7 +2272,7 @@
 			)
 		)
 		(property "Footprint" "mcp266_conn:CAPC2012X145N"
-			(at 190.5 116.84 0)
+			(at 163.83 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2970,7 +2283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 116.84 0)
+			(at 163.83 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2981,7 +2294,7 @@
 			)
 		)
 		(property "Description" "capacitor, US symbol"
-			(at 190.5 116.84 0)
+			(at 163.83 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3008,7 +2321,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 196.85 116.84 0)
+		(at 170.18 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3019,7 +2332,7 @@
 		(fields_autoplaced yes)
 		(uuid "772190e8-cfd1-4a5b-bd08-867881185a2f")
 		(property "Reference" "#FLG01"
-			(at 196.85 114.935 0)
+			(at 170.18 104.775 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3030,7 +2343,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 196.85 111.76 0)
+			(at 170.18 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3040,7 +2353,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 116.84 0)
+			(at 170.18 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3051,7 +2364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 116.84 0)
+			(at 170.18 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3062,7 +2375,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 196.85 116.84 0)
+			(at 170.18 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3085,171 +2398,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 129.54 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "80ab9e5b-d5b2-4e4f-aa32-b42a95f98427")
-		(property "Reference" "R2"
-			(at 130.9096 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5k"
-			(at 125.8296 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "mcp266_conn:RESC3116X65N"
-			(at 130.556 80.264 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 129.54 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c9532e05-4571-47ec-8687-0b065d215036")
-		)
-		(pin "2"
-			(uuid "53a6e6fa-2861-4efe-8f49-a6849f13de72")
-		)
-		(instances
-			(project "mcp266_conn"
-				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 140.97 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85b14e8e-2243-4f6a-8f2e-d68f8559003d")
-		(property "Reference" "J4"
-			(at 143.51 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LS2"
-			(at 143.51 92.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "mcp266_conn:HEADER90_2pin"
-			(at 140.97 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 140.97 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fae03ec6-e144-4740-bbd8-75a1463c3611")
-		)
-		(pin "2"
-			(uuid "e51cea79-968f-4170-b206-376e4b04628c")
-		)
-		(instances
-			(project "mcp266_conn"
-				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 149.86 125.73 0)
+		(at 123.19 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3260,7 +2410,7 @@
 		(fields_autoplaced yes)
 		(uuid "904a7990-69f4-4750-be22-a965b1d2c288")
 		(property "Reference" "J14"
-			(at 152.4 124.4599 0)
+			(at 125.73 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3271,7 +2421,7 @@
 			)
 		)
 		(property "Value" "CAN"
-			(at 152.4 126.9999 0)
+			(at 125.73 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3281,8 +2431,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 149.86 125.73 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 123.19 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3293,7 +2443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 125.73 0)
+			(at 123.19 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3304,7 +2454,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 149.86 125.73 0)
+			(at 123.19 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3333,337 +2483,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 149.86 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95d0d60f-cb3d-498d-bb0f-b2d245b2599f")
-		(property "Reference" "J13"
-			(at 152.4 113.0299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CAN"
-			(at 152.4 115.5699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 149.86 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf0d9ef9-ec8e-44d2-a6aa-401c3dd9f514")
-		)
-		(pin "2"
-			(uuid "42073241-4244-45a0-9085-0447131fcc3f")
-		)
-		(pin "3"
-			(uuid "56c1a151-c2a1-40e4-9129-b5cff821038a")
-		)
-		(instances
-			(project "mcp266_conn"
-				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 157.48 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ab529772-9ebf-4d00-bc32-c589457e0dbd")
-		(property "Reference" "R5"
-			(at 159.1036 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5k"
-			(at 153.7696 96.774 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "mcp266_conn:RESC3116X65N"
-			(at 158.496 96.774 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 157.48 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a4e154e-6e90-424d-b02d-0b26eb3fad49")
-		)
-		(pin "2"
-			(uuid "7274b161-7f4e-4edd-b930-8a7f315a31c8")
-		)
-		(instances
-			(project "mcp266_conn"
-				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 157.48 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b5e75266-c01d-449b-a8fa-a3c76f5ae88c")
-		(property "Reference" "R4"
-			(at 159.6116 80.518 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5k"
-			(at 153.5156 80.518 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "mcp266_conn:RESC3116X65N"
-			(at 158.496 80.264 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 157.48 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dc55d9e8-8613-418f-8a05-45ce3e3aec3d")
-		)
-		(pin "2"
-			(uuid "591d4802-2728-421c-8005-27e7fd786813")
-		)
-		(instances
-			(project "mcp266_conn"
-				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 140.97 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b986ddf9-1d11-469a-87bb-7899e4a4f003")
-		(property "Reference" "J3"
-			(at 143.51 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LS1"
-			(at 143.51 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "mcp266_conn:HEADER90_2pin"
-			(at 140.97 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 140.97 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c44bb771-cbaa-4c62-97ec-e3a6bd9d1b56")
-		)
-		(pin "2"
-			(uuid "f188cb8c-0374-4ff4-8db5-8a6239b9306e")
-		)
-		(instances
-			(project "mcp266_conn"
-				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 196.85 116.84 90)
+		(at 170.18 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3674,7 +2495,7 @@
 		(fields_autoplaced yes)
 		(uuid "cacebfd4-6c5e-437a-8c93-417007387d11")
 		(property "Reference" "#PWR01"
-			(at 203.2 116.84 0)
+			(at 176.53 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3685,7 +2506,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 116.8399 90)
+			(at 173.99 106.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3696,7 +2517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 116.84 0)
+			(at 170.18 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3707,7 +2528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 116.84 0)
+			(at 170.18 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3718,7 +2539,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 116.84 0)
+			(at 170.18 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
