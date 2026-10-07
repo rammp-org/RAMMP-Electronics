@@ -1,0 +1,26 @@
+{
+  "supply": {
+    "V": 4.9997,
+    "I": 0.1494,
+    "P": 0.746,
+    "mode": "CV"
+  },
+  "scope_status": "STOP",
+  "final_V": {
+    "ch1": 5.616612366777,
+    "ch2": 1.8426333330150002,
+    "ch3": 5.625599145777
+  },
+  "ch1_rise_10_90_ms": 0.0,
+  "ch1_overshoot_pct": 80.16779206372058,
+  "ch3_overshoot_pct": 118.41383649284036,
+  "delay_ch2_4V5_to_ch1_9V_ms": -7.5032,
+  "ch1_max_dip_after_90pct_V": 10.183060620000001,
+  "ch2_min_after_on_V": -0.33185837,
+  "ch2_vs_supply_V": -3.1570666669849996,
+  "safety_trips": [
+    "10 V rail at 5.617 V",
+    "12 V rail at 5.626 V"
+  ],
+  "output_left_on": false
+}

@@ -1,0 +1,23 @@
+{
+  "supply": {
+    "V": 4.9996,
+    "I": 0.1488,
+    "P": 0.743,
+    "mode": "CV"
+  },
+  "scope_status": "STOP",
+  "final_V": {
+    "ch1": 9.98961580197,
+    "ch2": 4.222555366809999,
+    "ch3": 11.98060708905
+  },
+  "ch1_rise_10_90_ms": 4.601999999999999,
+  "ch1_overshoot_pct": 1.1115921796321804,
+  "ch3_overshoot_pct": 2.170835325930237,
+  "delay_ch2_4V5_to_ch1_9V_ms": null,
+  "ch1_max_dip_after_90pct_V": 0.2005358399999988,
+  "ch2_min_after_on_V": 0.88504454,
+  "ch2_vs_supply_V": -0.7770446331900009,
+  "safety_trips": [],
+  "output_left_on": true
+}
