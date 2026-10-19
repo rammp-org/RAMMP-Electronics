@@ -1980,6 +1980,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 93.98 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "0a2616dc-b6c4-4b68-b229-8a3d3e69b454")
 		)
@@ -2036,6 +2047,9 @@
 				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
 					(reference "J1")
 					(unit 1)
+					(variant
+						(name "LCSC")
+					)
 				)
 			)
 		)
@@ -2073,7 +2087,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mcp266_conn:RESC3116X65N"
+		(property "Footprint" "mcp266_conn:RES_1.2k"
 			(at 130.556 96.774 90)
 			(hide yes)
 			(show_name no)
@@ -2106,6 +2120,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C114526"
+			(at 129.54 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a1e3a1bd-f03e-4c6f-9ff2-c65c9ee3ce20")
 		)
@@ -2117,6 +2142,9 @@
 				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
 					(reference "R3")
 					(unit 1)
+					(variant
+						(name "LCSC")
+					)
 				)
 			)
 		)
@@ -2155,7 +2183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "mcp266_conn:HEADER_2pos"
 			(at 168.91 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2188,6 +2216,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C127361"
+			(at 168.91 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6e600f48-eb16-4ed3-8974-b26de33e11ac")
 		)
@@ -2199,6 +2238,9 @@
 				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
 					(reference "J6")
 					(unit 1)
+					(variant
+						(name "LCSC")
+					)
 				)
 			)
 		)
@@ -2237,7 +2279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "mcp266_conn:HEADER_2pos"
 			(at 168.91 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2270,6 +2312,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C127361"
+			(at 168.91 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0d0ea463-6c54-4a8c-a677-c96bd517a197")
 		)
@@ -2281,6 +2334,9 @@
 				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
 					(reference "J5")
 					(unit 1)
+					(variant
+						(name "LCSC")
+					)
 				)
 			)
 		)
@@ -2318,7 +2374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mcp266_conn:RESC3116X65N"
+		(property "Footprint" "mcp266_conn:RES_1.2k"
 			(at 130.556 80.264 90)
 			(hide yes)
 			(show_name no)
@@ -2351,6 +2407,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C114526"
+			(at 129.54 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c9532e05-4571-47ec-8687-0b065d215036")
 		)
@@ -2362,6 +2429,9 @@
 				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
 					(reference "R2")
 					(unit 1)
+					(variant
+						(name "LCSC")
+					)
 				)
 			)
 		)
@@ -2400,7 +2470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "mcp266_conn:HEADER_2pos"
 			(at 140.97 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -2433,6 +2503,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C127361"
+			(at 140.97 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fae03ec6-e144-4740-bbd8-75a1463c3611")
 		)
@@ -2444,6 +2525,9 @@
 				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
 					(reference "J4")
 					(unit 1)
+					(variant
+						(name "LCSC")
+					)
 				)
 			)
 		)
@@ -2482,7 +2566,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "mcp266_conn:HEADER_3pos_90degree"
 			(at 149.86 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -2515,6 +2599,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C505296"
+			(at 149.86 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1b1e24ae-2a86-4705-89e9-84e0fc848808")
 		)
@@ -2529,6 +2624,9 @@
 				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
 					(reference "J14")
 					(unit 1)
+					(variant
+						(name "LCSC")
+					)
 				)
 			)
 		)
@@ -2567,7 +2665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "mcp266_conn:HEADER_3pos_90degree"
 			(at 149.86 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -2600,6 +2698,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C505296"
+			(at 149.86 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cf0d9ef9-ec8e-44d2-a6aa-401c3dd9f514")
 		)
@@ -2614,6 +2723,9 @@
 				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
 					(reference "J13")
 					(unit 1)
+					(variant
+						(name "LCSC")
+					)
 				)
 			)
 		)
@@ -2651,7 +2763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mcp266_conn:RESC3116X65N"
+		(property "Footprint" "mcp266_conn:RES_1.2k"
 			(at 158.496 96.774 90)
 			(hide yes)
 			(show_name no)
@@ -2684,6 +2796,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C114526"
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4a4e154e-6e90-424d-b02d-0b26eb3fad49")
 		)
@@ -2695,6 +2818,9 @@
 				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
 					(reference "R5")
 					(unit 1)
+					(variant
+						(name "LCSC")
+					)
 				)
 			)
 		)
@@ -2732,7 +2858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mcp266_conn:RESC3116X65N"
+		(property "Footprint" "mcp266_conn:RES_1.2k"
 			(at 158.496 80.264 90)
 			(hide yes)
 			(show_name no)
@@ -2765,6 +2891,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C114526"
+			(at 157.48 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dc55d9e8-8613-418f-8a05-45ce3e3aec3d")
 		)
@@ -2776,6 +2913,9 @@
 				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
 					(reference "R4")
 					(unit 1)
+					(variant
+						(name "LCSC")
+					)
 				)
 			)
 		)
@@ -2814,7 +2954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "mcp266_conn:HEADER_2pos"
 			(at 140.97 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2847,6 +2987,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C127361"
+			(at 140.97 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c44bb771-cbaa-4c62-97ec-e3a6bd9d1b56")
 		)
@@ -2858,6 +3009,9 @@
 				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
 					(reference "J3")
 					(unit 1)
+					(variant
+						(name "LCSC")
+					)
 				)
 			)
 		)
