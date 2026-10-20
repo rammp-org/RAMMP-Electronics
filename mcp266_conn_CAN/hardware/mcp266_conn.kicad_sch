@@ -1881,6 +1881,16 @@
 		(uuid "00af675e-a66c-40c4-8aa4-4e096e17dea4")
 	)
 	(label "CANH"
+		(at 118.11 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "80bc34d1-b3e5-48b4-9214-c304e2200b5c")
+	)
+	(label "CANH"
 		(at 101.6 106.68 0)
 		(effects
 			(font
@@ -1920,6 +1930,16 @@
 		)
 		(uuid "9a3b26e9-50ac-43ce-a576-b3c2e0444d03")
 	)
+	(label "GND"
+		(at 118.11 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af321112-fb88-4165-aaba-7e85861b75a4")
+	)
 	(label "CANL"
 		(at 86.36 104.14 180)
 		(effects
@@ -1929,6 +1949,16 @@
 			(justify right bottom)
 		)
 		(uuid "c30c4aed-82cb-4a5d-ba20-d6f04695c6e2")
+	)
+	(label "CANL"
+		(at 118.11 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4710fc0-ae7d-4353-910e-32e37e27da1b")
 	)
 	(label "CANL"
 		(at 153.67 118.11 180)
@@ -2007,6 +2037,17 @@
 		)
 		(property "Description" ""
 			(at 93.98 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 93.98 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2110,7 +2151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mcp266_conn:RESC3116X65N"
+		(property "Footprint" "mcp266_conn:RES_60.4ohms"
 			(at 154.686 100.584 90)
 			(hide yes)
 			(show_name no)
@@ -2143,6 +2184,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C844855"
+			(at 153.67 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a8279277-6352-4a19-a145-72304610a534")
 		)
@@ -2153,6 +2205,102 @@
 			(project "mcp266_conn"
 				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 123.19 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "091d1280-c190-44df-beec-a2785b1ed491")
+		(property "Reference" "J15"
+			(at 125.73 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CAN"
+			(at 125.73 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mcp266_conn:HEADER_3pos_90degree"
+			(at 123.19 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 123.19 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C505296"
+			(at 123.19 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "616ec717-891f-409d-aeb7-22a3a9fcddd6")
+		)
+		(pin "2"
+			(uuid "01a336b3-0725-426d-9b66-835e861f2e4d")
+		)
+		(pin "3"
+			(uuid "0a17bef6-0545-4635-83b3-bcdba526fff1")
+		)
+		(instances
+			(project "mcp266_conn"
+				(path "/4d34fb7d-9709-4daf-91f4-2acbdf37e7f0"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -2192,7 +2340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mcp266_conn:RESC3116X65N"
+		(property "Footprint" "mcp266_conn:RES_60.4ohms"
 			(at 154.686 113.284 90)
 			(hide yes)
 			(show_name no)
@@ -2215,6 +2363,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 153.67 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C844855"
 			(at 153.67 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -2271,7 +2430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mcp266_conn:CAPC2012X145N"
+		(property "Footprint" "mcp266_conn:CAP_47nF"
 			(at 163.83 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2295,6 +2454,17 @@
 		)
 		(property "Description" "capacitor, US symbol"
 			(at 163.83 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1864482"
+			(at 163.83 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2431,7 +2601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "mcp266_conn:HEADER_3pos_90degree"
 			(at 123.19 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2454,6 +2624,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 123.19 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C505296"
 			(at 123.19 115.57 0)
 			(hide yes)
 			(show_name no)
