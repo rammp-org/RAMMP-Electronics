@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "mcp266_conn") (type "KiCad") (uri "${KIPRJMOD}/lib/mcp266_conn.pretty") (options "") (descr ""))
+)

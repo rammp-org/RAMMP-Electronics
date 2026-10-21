@@ -2695,17 +2695,6 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 93.98 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "3"
 			(uuid "0a2616dc-b6c4-4b68-b229-8a3d3e69b454")
 		)
@@ -2860,17 +2849,6 @@
 				(justify bottom)
 			)
 		)
-		(property "LCSC" "C293630"
-			(at 120.65 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "75cccc7d-a291-483f-b9cc-05dcd0f1de4a")
 		)
@@ -2983,17 +2961,6 @@
 				(justify bottom)
 			)
 		)
-		(property "LCSC" "C114130"
-			(at 170.18 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "1d391be5-1ab7-40c0-9c10-b555e12d36cf")
 		)
@@ -3043,7 +3010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mcp266_conn:RES_60.4ohms"
+		(property "Footprint" "mcp266_conn:RES_size_1206"
 			(at 172.466 133.604 90)
 			(hide yes)
 			(show_name no)
@@ -3066,17 +3033,6 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 171.45 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C844855"
 			(at 171.45 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -3196,17 +3152,6 @@
 				(justify bottom)
 			)
 		)
-		(property "LCSC" "C114130"
-			(at 170.18 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "cb20a4de-d4c3-4b24-97a2-949c74990f1f")
 		)
@@ -3316,17 +3261,6 @@
 				(justify bottom)
 			)
 		)
-		(property "LCSC" "C114130"
-			(at 214.63 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "21f94c01-bb06-4623-ad8a-98f0589cd1fc")
 		)
@@ -3376,7 +3310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mcp266_conn:RES_1.2k"
+		(property "Footprint" "mcp266_conn:RES_size_1206"
 			(at 211.836 95.504 90)
 			(hide yes)
 			(show_name no)
@@ -3399,17 +3333,6 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 210.82 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C114526"
 			(at 210.82 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3467,7 +3390,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mcp266_conn:CAP_47nF"
+		(property "Footprint" "mcp266_conn:CAP_size_0805"
 			(at 184.15 127 0)
 			(hide yes)
 			(show_name no)
@@ -3491,17 +3414,6 @@
 		)
 		(property "Description" "capacitor, US symbol"
 			(at 184.15 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1864482"
-			(at 184.15 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3640,17 +3552,6 @@
 				(justify bottom)
 			)
 		)
-		(property "LCSC" "C221665"
-			(at 130.81 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "a8131e51-586d-41a0-8a8d-0c9d56551736")
 		)
@@ -3712,7 +3613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mcp266_conn:RES_1.2k"
+		(property "Footprint" "mcp266_conn:RES_size_1206"
 			(at 211.836 78.994 90)
 			(hide yes)
 			(show_name no)
@@ -3735,17 +3636,6 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 210.82 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C114526"
 			(at 210.82 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3805,7 +3695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mcp266_conn:RES_1.2k"
+		(property "Footprint" "mcp266_conn:RES_size_1206"
 			(at 167.386 95.504 90)
 			(hide yes)
 			(show_name no)
@@ -3828,17 +3718,6 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 166.37 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C114526"
 			(at 166.37 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3958,17 +3837,6 @@
 				(justify bottom)
 			)
 		)
-		(property "LCSC" "C114130"
-			(at 214.63 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "7854d435-e751-4418-842e-e5ce4d36010a")
 		)
@@ -4018,7 +3886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mcp266_conn:RES_1.2k"
+		(property "Footprint" "mcp266_conn:RES_size_1206"
 			(at 167.386 78.994 90)
 			(hide yes)
 			(show_name no)
@@ -4041,17 +3909,6 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 166.37 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C114526"
 			(at 166.37 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4111,7 +3968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mcp266_conn:RES_60.4ohms"
+		(property "Footprint" "mcp266_conn:RES_size_1206"
 			(at 172.466 120.904 90)
 			(hide yes)
 			(show_name no)
@@ -4134,17 +3991,6 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 171.45 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C844855"
 			(at 171.45 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4262,17 +4108,6 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-			)
-		)
-		(property "LCSC" "C293630"
-			(at 120.65 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"

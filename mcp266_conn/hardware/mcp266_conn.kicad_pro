@@ -624,12 +624,6 @@
           "show": false
         },
         {
-          "group_by": true,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": true
-        },
-        {
           "group_by": false,
           "label": "STANDARD",
           "name": "STANDARD",
